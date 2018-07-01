@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css?family=Galada');
+body{
+background-image:url('img/light-bg1.png');
+}
+
+.title{ /*this is so that only title got this font*/
+  font-size:3em;
+  font-family: 'Galada', cursive;
+}
+
+.Start{
+  display:block; 
+  background-color: green; 
+  color:white ;
+  width:5em;
+  height:5em;
+  margin-left:auto; 
+  margin-right:auto; 
+  border-radius: 50%; /*makes things round only 50% makes it round */
+  line-height: 5em;
+  text-align: center;
+  font-size:1.3em;
+  text-decoration:none;
+  
+  
+}
+.number{
+  /*height:5em;*/
+  /* when  u have font size, height no need*/
+  font-size:2em;
+  text-align:right;
+  margin-bottom:1em;
+
+  
+}
+.box22{
+   margin-left:auto; 
+  margin-right:auto; 
+}
+
+.Start:hover{
+  transition: background-color:yellow;
+  background-color:indigo; 
+}
